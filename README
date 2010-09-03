@@ -1,0 +1,12 @@
+In trivial.arc change the addresses of the posts, header and footer file to your location: postdir*, headerfile*, footerfile*
+Put any number of posts (text files) you like in the posts directory.
+Run trivial.arc like any other arc file and then run asv. Then look at http://localhost:8080
+
+(load "trivial.arc")
+(asv)
+
+Notes:
+* Changed the address of the css file in header.htmlf from
+href="/static/css/webapp.css" to href="/webapp.css".  I'm using trivial.arc to generate the
+css page.
+* Removed "<!DOCTYPE html>" from SM's header.htmlf. The CSS wasn't showing otherwise.
