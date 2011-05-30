@@ -1,3 +1,5 @@
+I've put this up at blog.atlantas.com.au.
+
 In trivial.arc change the addresses of the posts, header and footer file to your location: postdir*, headerfile*, footerfile*
 Put any number of posts (text files) you like in the posts directory.
 Run trivial.arc like any other arc file and then run asv. Then look at http://localhost:8080
